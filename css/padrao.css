@@ -1,0 +1,157 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial, verdana;
+	}
+
+body{
+	/*tamanho da fonte da página*/
+	font-size: 16px;
+	background-color: #333333;	
+}
+
+.container {
+	/*tamanho max, min, cor de fundo, altura e margem do container*/
+	max-width: 1200px;
+	min-width: 960px;
+	margin: 0px auto;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+p{
+ 	font-size: 19px;
+ }
+
+main {
+	/*tamanho max, min, cor de fundo, altura e margem do container*/
+	max-width: 1200px;
+	min-width: 960px;
+	margin: 0px auto;
+	height: 100%;
+}
+
+h1{
+	width: 30%;
+    margin: 0px;
+    padding-left: 60px;
+    font-size: 38px;
+    padding-top: 23px;
+    color: #ffffff;
+    float: left; 
+    font-family: 'Poppins', sans-serif;
+    background-color: #1A1A1A;
+}
+
+header {
+
+	/*largura cabeçalho*/
+	width: 100%;
+	/*altura cabeçalho*/
+	height: 80px;
+	/*fundo cor cabeçalho*/
+	background-color: #1A1A1A;
+	position: fixed;
+	z-index: 4;
+	
+}
+
+nav{
+	width: 65%;
+	height: 100%;
+	float: right;
+	padding-top: 45px;
+	background-color: #1A1A1A; 
+		
+}
+
+nav ul{
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+nav ul li{
+	/*retira os marcadores*/
+	display: table-cell;
+	/* posicionamento vertical do conteúdo no item */
+	vertical-align: middle; 
+	/*largura entre os menus*/
+	width: 150px;
+	/*alinhamento dos menus*/
+	text-align: center;
+	/*espaçamento entre os menus*/
+	padding: 2px 0px;
+	background-color: #1A1A1A;
+}
+
+nav ul li:hover {
+	background-color: #00ADB5;	
+}
+
+nav ul li a{
+	/*retira a linha sublinhada do menu*/
+	text-decoration: none;
+	/*fonte*/
+	font-family: 'Comfortaa', cursive;
+	/*tamanho da fonte*/
+	font-size: 1.3em; 
+	/*cor da fonte*/
+	color: #FFFFFF;
+	/*fonte em negrito*/
+	font-weight: bold;
+}
+	/*imagem destaque e suas configurações*/
+
+	/*configurações do h2 sobreposto ao destaque*/
+h2 {
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+	top: 350px;
+	padding-left: 300px;
+	font-size: 40px;
+	color: #000;
+	background-color: #ffffff;
+	opacity: 0.8;
+	z-index: 2;
+}
+
+h3{
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	color: #F1F0E2;
+}
+
+h4{
+	font-family: 'Comfortaa', cursive, arial, verdana;
+	font-size: 25px;
+	color: #000;
+	padding-top: 22px;
+	padding-left: 5px;
+}
+
+h5{
+
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 20px;
+}
+
+h6{
+	font-size: 10px;
+	padding-top: 15px;
+}
+
+
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: #00ADB5;
+	text-align: center;	
+}

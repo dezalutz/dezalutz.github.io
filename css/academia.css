@@ -1,0 +1,55 @@
+.carrosel{
+	margin-top: 30px;
+	width: 100%;
+	height: 450px;
+}
+
+.carrosel img{
+	width: 100%;
+	height: 450px;
+
+}
+ 	
+	/*configuração da seção onde ficam as modalidades*/
+#modalidades{
+	width: 100%;
+	height: 510px;
+	background-color: #1A1A1A;
+
+}
+
+	/*configurações do títulos h3 das modalidades*/
+#modalidades h3{
+	margin: 0px 0px 0px 80px;
+    color: #FFFFFF;
+}
+	/*configurações do article das modalidades*/
+#modalidades article{
+	width: 24%;
+    height: 160px;
+    padding: 5px 7px 90px 5px;
+    float: left;
+    text-decoration: none;
+}
+
+#modalidades article:hover {
+    background-color: #00ADB5;
+  
+}
+
+#modalidades article img {
+    width: 100%;
+    height: 180px;
+    margin: 2px 2px 2px 2px;
+}
+
+#descricao{
+	font-family:'Comfortaa', cursive;
+	text-align: center;
+	color: #ffffff;
+    width: 100%;
+    height: 130px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
