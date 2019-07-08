@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<title>Sports Training</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+	<meta charset="utf-8">
+
+	<!-- integração do CSS externo com o HTML -->
+	<style type="text/css">
+		@import "css/padrao.css";
+		@import "css/academia.css";
+	</style>
+
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+	</style>
+
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Poppins');
+	</style>
+
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<!--menu da página-->
+			<h1>SPORTS TRAINING</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="modalidade.html">Modalidades</a></li>
+					<li><a href="#" class="md-trigger" data-modal="modal-5">Horários</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- definição da área principal da página -->	
+	<main>
+		<!-- definição de seção da página -->
+
+		<h2>A academia que entende você!</h2>
+		<div class="carrosel">
+			  <img src="imagens/backgroundd.jpg" alt="imagem fundo" title="imagem fundo">
+			  <img src="imagens/carrossel3.jpg"  alt="imagem fundo" title="imagem fundo">
+			  
+		</div>
+
+		<section id="descricao">
+			<article>
+				<h3>A Sports Training</h3>
+				<br>
+				<p>
+				A Sports Training é uma academia que se preocupa com a saúde e bem estar de nossos clientes.<br>
+				<br>
+				Seja bem-vindo a Sports Training, a academia que entende você!
+				</p>
+			</article>
+			
+		</section>
+
+		<section id="modalidades">
+			
+			<article id="musc">
+				<a href="modalidade.html#amusculacao">
+					<figure>
+						<img src="imagens/musculacao.jpg" alt="musculação" title="musculação">
+						<h5>Musculação</h5>
+					</figure>
+				</a>
+			</article>
+
+			<article id="gap">
+				<a href="modalidade.html#agap">
+					<figure>
+						<img src="imagens/gap.jpg" alt="gap" title="gap">
+						<h5>G.A.P</h5>
+					</figure>
+				</a>
+			</article>
+
+			<article id="step">
+				<a href="modalidade.html#astep">
+					<figure>
+						<img src="imagens/step.jpg" alt="step" title="step">
+						<h5>Step</h5>
+					</figure>
+				</a>
+			</article>
+
+			<article id="funcional">
+				<a href="modalidade.html#afuncional">
+					<figure>
+						<img src="imagens/treinofuncional.jpg" alt="treinofuncional" title="treinofuncional">
+						<h5>Treino Funcional</h5>
+					</figure>
+				</a>
+			</article>
+
+			<article id="jump">
+				<a href="modalidade.html#ajump">
+					<figure>
+						<img src="imagens/jump.jpg" alt="jump" title="jump">
+						<h5>Jump</h5>
+					</figure>
+				</a>
+			</article>
+
+			<article id="zumba">
+				<a href="modalidade.html#azumba">
+					<figure>
+						<img src="imagens/zumba.jpg" alt="Zumba" title="Zumba">
+						<h5>Zumba</h5>
+					</figure>
+				</a>
+			</article>
+
+			<article id="boxe">
+				<a href="modalidade.html#aboxe">
+					<figure>
+						<img src="imagens/boxe.jpg" alt="boxe" title="boxe">
+						<h5>Boxe</h5>
+					</figure>
+				</a>
+			</article>
+
+			<article id="jiu">
+				<a href="modalidade.html#ajiu">
+					<figure>
+						<img src="imagens/jiu.jpg" alt="jiu-jitsu" title="jiu-jitsu">
+						<h5>Jiu-Jitsu</h5>
+					</figure>
+				</a>
+			</article>
+			
+		</section>
+				
+		<aside id="intagram">
+				
+			<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+			<div class="elfsight-app-f5eb07f1-6d6d-4163-bd23-951ac7ab3c59"></div>
+		</aside>    
+	</main>
+
+	<footer>
+		<h6>
+			© 2018 Academia Sports Training
+			<br>
+			Site desenvolvido por Andreza Oliveira
+		</h6>	
+	</footer>
+
+		 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		 <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		 <script type="text/javascript" src="slick/slick.min.js"></script>
+
+		 <script type="text/javascript">
+		    
+
+
+		    $(document).ready(function(){
+      			$('.carrosel').slick({
+      				slidesToShow: 1,
+       				autoplay: true,
+     		 });
+   		 });
+  		</script>
+
+
+
+		<div class="md-modal md-effect-5" id="modal-5">
+			<div class="md-content">
+				<img src="Imagens/horario.png" alt="horarios" title="horarios">
+			</div>
+		</div>
+
+		<div class="md-overlay"></div><!-- the overlay element -->
+
+		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script src="js/modalEffects.js"></script>
+
+		<!-- for the blur effect -->
+		<!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+		<script>
+			// this is important for IEs
+			var polyfilter_scriptpath = '/js/';
+		</script>
+		<script src="js/cssParser.js"></script>
+		<script src="js/css-filters-polyfill.js"></script>
+
+</body>
+</html>

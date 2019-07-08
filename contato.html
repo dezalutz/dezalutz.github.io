@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<title>Sports Training</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+	<meta charset="utf-8">
+
+	<!-- integração do CSS externo com o HTML -->
+	<style type="text/css">
+		@import "css/padrao.css";
+		@import "css/contato.css";
+	</style>
+
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+	</style>
+
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Poppins');
+	</style>
+
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<!--menu da página-->
+			<a href="index.html"><h1>SPORTS TRAINING</h1></a>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="modalidade.html">Modalidades</a></li>
+					<li><a href="#" class="md-trigger" data-modal="modal-5">Horários</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- definição da área principal da página -->	
+	<main>
+		<!-- definição de seção da página -->
+		<section id=contato>
+                <div id="formulario">
+                    <h3> Fale com a Sports Training </h3>
+
+                    <form action="pag.php" method="post">
+                    	
+                        <input type="text" name="nome" class="input" placeholder="NOME*" required>
+                        <input type="email" name="email" class="input" placeholder="EMAIL*" required>
+						<input type="tel" name="telefone" id="tel" placeholder="TELEFONE* (apenas números)">		
+                        <textarea name="mensagem" placeholder="Deixe sua mensagem..." rows="4"></textarea>
+                       	<input type="submit" name="acao" class="botao" value="ENVIAR">
+                   
+                    </form>
+                </div>
+
+                <div id="info">
+                	<h3>Informações</h3>
+
+                	<p>
+                		Seg-Sex: 6h30-23h<br>
+						Sábado: 9h - 15h<br>
+						Tel: (51) 3344-5566<br>
+						E-mail: contato@sportstraining.com<br>
+						​
+						Rua Coronel Genuíno, 130<br>
+
+						Porto Alegre - RS<br>
+					</p>
+
+						<div id="redesocial">
+							<a href="https://www.facebook.com/faculdadesenacpoa/" ><img src="imagens/fcb.png" alt="logo facebook"></a>
+							<a href="https://www.instagram.com/senac_rs/?hl=pt-br"><img src="imagens/inst.png" alt="logo instagram"></a>
+						</div>	
+
+                </div>
+
+                <div id="localizacao">
+                	<h3>Localização</h3>
+
+                	<iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.0567735967147!2d-51.22875008427878!3d-30.035229037809714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197906a9d397f5%3A0x514b4935e97fbf4d!2sFaculdade+Senac+Porto+Alegre+(Campus+I)!5e0!3m2!1spt-BR!2sbr!4v1544539086911"></iframe>
+                </div>
+        </section>
+		
+	</main>
+
+	<footer>
+		<h6>
+			© 2018 Academia Sports Training
+			<br>
+			Site desenvolvido por Andreza Oliveira
+		</h6>	
+	</footer>
+
+		<div class="md-modal md-effect-5" id="modal-5">
+			<div class="md-content">
+				<img src="Imagens/horario.png" alt="horario">
+			</div>
+		</div>
+
+		<div class="md-overlay"></div><!-- the overlay element -->
+
+		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script src="js/modalEffects.js"></script>
+
+		<!-- for the blur effect -->
+		<!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+		<script>
+			// this is important for IEs
+			var polyfilter_scriptpath = '/js/';
+		</script>
+		<script src="js/cssParser.js"></script>
+		<script src="js/css-filters-polyfill.js"></script>
+
+</body>
+</html>
